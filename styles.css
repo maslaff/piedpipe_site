@@ -25,7 +25,7 @@ body {
 
 header {
     width: 100%;
-    padding: 20px;
+    padding: 20px 0;
     /* margin: 20px; */
     position: fixed;
     background-color: #007765;
@@ -39,7 +39,7 @@ header {
 
 nav {
     float: right;
-    margin-right: 104px;
+    margin-right: -6px;
 }
 
 nav ul {
@@ -94,14 +94,15 @@ h2 {
 .content {
     margin-top: -85px;
     padding-top: 85px;
+    margin-bottom: 92px;
 }
 
 .content p {
     font-weight: 400;
     font-size: 32px;
     line-height: 37px;
-    margin-top: 18px;
-    margin-bottom: 40px;
+    margin-top: 17px;
+    margin-bottom: 39px;
 }
 
 .hero-block {
@@ -124,4 +125,10 @@ h2 {
     font-size: 48px;
     line-height: 56px;
     margin: 0 108px;
+}
+
+#pied img {
+    width: 115px;
+    float: left;
+    margin: 16px 48px 0 0;
 }
