@@ -8,6 +8,7 @@ body {
     max-width: 1219px;
     margin: 0 auto;
     padding: 0 55px;
+    box-sizing: border-box;
 }
 
 .clear {
@@ -66,7 +67,7 @@ nav a {
 .title {
     padding-top: 85px;
     height: 403px;
-    background: url('img/jumbotron.jpg');
+    background: url('/img/jumbotron.jpg');
     background-size: cover;
 }
 
@@ -78,7 +79,49 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    color: #007765;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    margin-top: 47px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    /* margin-left: -72px; */
+}
+
 .content {
     margin-top: -85px;
     padding-top: 85px;
+}
+
+.content p {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    margin-top: 18px;
+    margin-bottom: 40px;
+}
+
+.hero-block {
+    background: url('/img/hero.jpg');
+    height: 483px;
+    background-size: cover;
+    line-height: 483px;
+    text-align: center;
+}
+
+.hero {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.hero p {
+    color: white;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    margin: 0 108px;
 }
