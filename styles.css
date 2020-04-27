@@ -16,15 +16,16 @@ body {
     clear: both;
 }
 
-.anchor {
+/* .anchor {
     position: absolute;
     left: 0;
     top: -100;
-}
+} */
 
 header {
     width: 100%;
     padding: 20px;
+    /* margin: 20px; */
     position: fixed;
     background-color: #007765;
 }
@@ -62,7 +63,22 @@ nav a {
     line-height: 45px;
 }
 
+.title {
+    padding-top: 85px;
+    height: 403px;
+    background: url('img/jumbotron.jpg');
+    background-size: cover;
+}
+
+h1 {
+    color: white;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 403px;
+    text-align: center;
+}
+
 .content {
-    margin-top: -50px;
-    padding-top: 50px;
+    margin-top: -85px;
+    padding-top: 85px;
 }
