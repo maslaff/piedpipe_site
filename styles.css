@@ -4,7 +4,6 @@ body {
 }
 
 .container {
-    /* width: 100%; */
     max-width: 1219px;
     margin: 0 auto;
     padding: 0 55px;
@@ -17,16 +16,9 @@ body {
     clear: both;
 }
 
-/* .anchor {
-    position: absolute;
-    left: 0;
-    top: -100;
-} */
-
 header {
     width: 100%;
     padding: 20px 0;
-    /* margin: 20px; */
     position: fixed;
     background-color: #007765;
 }
@@ -34,7 +26,6 @@ header {
 .logo {
     float: left;
     height: 45px;
-    /* padding: 10px; */
 }
 
 nav {
@@ -65,7 +56,6 @@ nav a {
 }
 
 .title-block {
-    /* height: 403px; */
     margin-top: 85px;
     padding: 159px 0;
     background: url('/img/jumbotron.jpg');
@@ -191,8 +181,6 @@ footer {
     background-color: #333;
     margin: 0;
     padding: 30px 350px 47px;
-    /* vertical-align: middle; */
-    /* display: inline-block; */
 }
 
 .footer p {
