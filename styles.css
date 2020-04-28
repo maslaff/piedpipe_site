@@ -64,20 +64,28 @@ nav a {
     line-height: 45px;
 }
 
-.title {
-    padding-top: 85px;
-    height: 403px;
+.title-block {
+    /* height: 403px; */
+    margin-top: 85px;
+    padding: 159px 0;
     background: url('/img/jumbotron.jpg');
     background-size: cover;
     background-position: center;
+    text-align: center;
+}
+
+.title,
+.hero {
+    vertical-align: middle;
+    display: inline-block;
 }
 
 h1 {
+    margin: 0;
     color: white;
     font-weight: 500;
     font-size: 72px;
-    line-height: 403px;
-    text-align: center;
+    line-height: 84px;
 }
 
 h2 {
@@ -89,7 +97,6 @@ h2 {
     margin-top: 47px;
     padding-bottom: 0;
     margin-bottom: 0;
-    /* margin-left: -72px; */
 }
 
 .content {
@@ -107,16 +114,11 @@ h2 {
 }
 
 .hero-block {
-    background: url('/img/hero.jpg');
     padding: 130px 0;
+    background: url('/img/hero.jpg');
     background-size: cover;
     background-position: center;
     text-align: center;
-}
-
-.hero {
-    vertical-align: middle;
-    display: inline-block;
 }
 
 .hero p {
@@ -136,6 +138,7 @@ h2 {
 
 .team {
     max-width: 1250px;
+    margin-bottom: 0;
 }
 
 .team-items {
