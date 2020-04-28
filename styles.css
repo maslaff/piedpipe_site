@@ -132,3 +132,65 @@ h2 {
     float: left;
     margin: 16px 48px 0 0;
 }
+
+.team {
+    max-width: 1250px;
+}
+
+.team-items {
+    margin-top: 32px;
+    text-align: center;
+}
+
+.team-items ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+}
+
+.team-items li {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    display: inline-block;
+    margin: 0 14px 54px;
+    text-align: center;
+}
+
+.portrait {
+    width: 168px;
+    margin: 24px 90px 0;
+}
+
+.team-items dl {
+    margin: 6px;
+}
+
+.team-items dt {
+    color: #007765;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.team-items dd {
+    margin: 0;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.footer {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+footer p {
+    padding: 0 300px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+}
