@@ -69,6 +69,7 @@ nav a {
     height: 403px;
     background: url('/img/jumbotron.jpg');
     background-size: cover;
+    background-position: center;
 }
 
 h1 {
@@ -107,9 +108,9 @@ h2 {
 
 .hero-block {
     background: url('/img/hero.jpg');
-    height: 483px;
+    padding: 130px 0;
     background-size: cover;
-    line-height: 483px;
+    background-position: center;
     text-align: center;
 }
 
@@ -139,6 +140,7 @@ h2 {
 
 .team-items {
     margin-top: 32px;
+    margin-bottom: 63px;
     text-align: center;
 }
 
@@ -182,13 +184,16 @@ h2 {
     line-height: 21px;
 }
 
-.footer {
-    vertical-align: middle;
-    display: inline-block;
+footer {
+    background-color: #333;
+    margin: 0;
+    padding: 30px 350px 47px;
+    /* vertical-align: middle; */
+    /* display: inline-block; */
 }
 
-footer p {
-    padding: 0 300px;
+.footer p {
+    color: white;
     text-align: center;
     font-size: 18px;
     line-height: 21px;
