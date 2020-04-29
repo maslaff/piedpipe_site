@@ -136,17 +136,17 @@ h2 {
 }
 
 .team-items {
+    width: 100%;
     margin-top: 32px;
     margin-bottom: 63px;
-
 }
 
 .team-items ul {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-content: space-between;
+    /* justify-content: space-between; */
+    /* align-content: space-between; */
 }
 
 .team-items li {
@@ -156,11 +156,12 @@ h2 {
     margin-bottom: 53px;
     text-align: center;
     /* margin: 0 14px 54px; */
+    flex-basis: 33%;
 }
 
 .portrait {
-    width: 168px;
-    margin: 24px 90px 0;
+    /* width: 168px; */
+    /* margin: 24px 90px 0; */
 }
 
 .team-items dl {
