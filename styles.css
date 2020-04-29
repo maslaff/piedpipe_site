@@ -127,30 +127,35 @@ h2 {
 }
 
 .team {
-    max-width: 1250px;
     margin-bottom: 0;
+}
+
+.team-items * {
+    margin: 0;
+    padding: 0;
 }
 
 .team-items {
     margin-top: 32px;
     margin-bottom: 63px;
-    text-align: center;
+
 }
 
 .team-items ul {
-    margin: 0;
-    padding: 0;
     list-style: none;
-    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
 }
 
 .team-items li {
     font-weight: 500;
     font-size: 24px;
     line-height: 28px;
-    display: inline-block;
-    margin: 0 14px 54px;
+    margin-bottom: 53px;
     text-align: center;
+    /* margin: 0 14px 54px; */
 }
 
 .portrait {
@@ -170,7 +175,7 @@ h2 {
 }
 
 .team-items dd {
-    margin: 0;
+    padding-top: 1px;
     font-style: italic;
     font-weight: normal;
     font-size: 18px;
